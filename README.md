@@ -4,8 +4,8 @@
 
 ## BACKGROUND
 
-This is a multi-function jupyter lab notebook (stored as **sentiment_analyzer.ipynb**) that compares the sentiments of Elon Musk tweets versus stock market reactions from the individual stocks referenced in his tweets. 
-Elon Musk, the richest man on Earth with over 107M followers on twitter, uses the platform to share his opinions, often controversial. In addition, Elon was charged with securities fraud by the SEC because of misleading tweets causing price fluctuations.
+This is a multi-function jupyter lab notebook (stored as **sentiment_analyzer.ipynb**) that compares the sentiments of Elon Musk tweets versus stock market reactions from the individual stocks referenced in his tweets. Elon Musk, the richest man on Earth with over 107M followers on twitter, uses the platform to share his opinions, often controversial. In addition, Elon was charged with securities fraud by the SEC because of misleading tweets causing price fluctuations.
+
 ---
 
 ## PROJECT OVERVIEW
@@ -16,6 +16,11 @@ In this notebook we hope to answer the following questions:
 * Is it possible to predict whether or not a stock with rise/fall/remain with the sentiment of his tweets? 
 * Can we design a stock purchase method based on Elons tweets?
 
+Bonus
+
+* Do Elons tweets affect companies other than TSLA? (TEST: 'DOGE' + 'TWTR')
+* Should we consider Elons tweet history on a certain company before investing?
+
 
 
 ---
@@ -23,7 +28,7 @@ In this notebook we hope to answer the following questions:
 ## DATA SOURCES
 
 **Datasets is provided by:**
-* Kaggle
+* [Kaggle](https://www.kaggle.com/datasets/andradaolteanu/all-elon-musks-tweets)
 * Yahoo Finance (yfinance)
 
 **This project leverages python 3.7 with the following packages:**
@@ -72,14 +77,24 @@ This application runs as a Jupyter Notebook. Open your terminal, navigate to the
 ## CONTRIBUTORS
 
 [Smruthi Danda](https://github.com/smruthid)
+
 [Ben Gunnels](https://github.com/miltiades-the-general)
+
 [Greg Richardson](https://github.com/jgrichardson)
+
 [Quianna Rolston](https://github.com/qrolston)
 
-* OTHER TEAM MEMBERS, ADD YOUR NAMES AND LINKS ABOVE
+[Manisha Lal](https://github.com/ind-2004Manishalal)
+
+[Zehra Vahidy](https://github.com/Zvahidy)
+
+
 
 ---
 
 ## License
 
 The source code for the application is licensed under the MIT license, which you can find in the LICENSE file in this repo.
+
+UC Berkeley Extension
+Fintech Bootcamp '22
