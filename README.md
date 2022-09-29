@@ -1,22 +1,43 @@
 # Elon Tweet Analysis
-
+![banner with twitter and elon graphic, title of notebook and description of notebook ](images/1.png)
 ---
 
 ## BACKGROUND
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae est lacus. Sed nec elit pretium, aliquam orci vitae, efficitur risus. Nulla volutpat elit quam, nec porttitor lorem laoreet tincidunt. Nulla in tellus euismod nisi pharetra mollis at a nisl. Pellentesque congue malesuada diam, ullamcorper maximus odio finibus vel. Nullam cursus placerat mauris, sed mollis diam vulputate et. Etiam ultrices rhoncus sagittis. Phasellus vehicula purus nec ullamcorper fermentum.
+This is a multi-function jupyter lab notebook (stored as **sentiment_analyzer.ipynb**) that compares the sentiments of Elon Musk tweets versus stock market reactions from the individual stocks referenced in his tweets. Elon Musk, the richest man on Earth with over 107M followers on twitter, uses the platform to share his opinions, often controversial. In addition, Elon was charged with securities fraud by the SEC because of misleading tweets causing price fluctuations.
 
+![graphic of musk tweet and reaction ](images/3.png)
 ---
 
 ## PROJECT OVERVIEW
 
-This project seeks to...
+In this notebook we hope to answer the following questions:
+
+* Does a correlation exist between Elons tweets and stock market reactions ?
+* Is it possible to predict whether or not a stock with rise/fall/remain with the sentiment of his tweets? 
+* Can we design a stock purchase method based on Elons tweets?
+
+Bonus
+
+* Do Elons tweets affect companies other than TSLA? (TEST: 'DOGE' + 'TWTR')
+* Should we consider Elons tweet history on a certain company before investing?
+
+![banner with twitter and elon graphic, title of notebook and description of notebook ](images/2.png)
 
 ---
 
 ## DATA SOURCES
 
-Describe the Kaggle, Yahoo Finance and other data sources here..
+**Datasets is provided by:**
+* [Kaggle](https://www.kaggle.com/datasets/andradaolteanu/all-elon-musks-tweets)
+* Yahoo Finance (yfinance)
+
+**This project leverages python 3.7 with the following packages:**
+* pandas
+* scikit-learn
+* yfinance
+* hvplot
+
 
 ---
 
@@ -57,13 +78,24 @@ This application runs as a Jupyter Notebook. Open your terminal, navigate to the
 ## CONTRIBUTORS
 
 [Smruthi Danda](https://github.com/smruthid)
+
 [Ben Gunnels](https://github.com/miltiades-the-general)
+
 [Greg Richardson](https://github.com/jgrichardson)
 
-* OTHER TEAM MEMBERS, ADD YOUR NAMES AND LINKS ABOVE
+[Quianna Rolston](https://github.com/qrolston)
+
+[Manisha Lal](https://github.com/ind-2004Manishalal)
+
+[Zehra Vahidy](https://github.com/Zvahidy)
+
+
 
 ---
 
 ## License
 
 The source code for the application is licensed under the MIT license, which you can find in the LICENSE file in this repo.
+
+UC Berkeley Extension
+Fintech Bootcamp '22
