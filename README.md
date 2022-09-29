@@ -1,11 +1,12 @@
 # Elon Tweet Analysis
-
+![banner with twitter and elon graphic, title of notebook and description of notebook ](images/1.png)
 ---
 
 ## BACKGROUND
 
 This is a multi-function jupyter lab notebook (stored as **sentiment_analyzer.ipynb**) that compares the sentiments of Elon Musk tweets versus stock market reactions from the individual stocks referenced in his tweets. Elon Musk, the richest man on Earth with over 107M followers on twitter, uses the platform to share his opinions, often controversial. In addition, Elon was charged with securities fraud by the SEC because of misleading tweets causing price fluctuations.
 
+![graphic of musk tweet and reaction ](images/3.png)
 ---
 
 ## PROJECT OVERVIEW
@@ -21,7 +22,7 @@ Bonus
 * Do Elons tweets affect companies other than TSLA? (TEST: 'DOGE' + 'TWTR')
 * Should we consider Elons tweet history on a certain company before investing?
 
-
+![banner with twitter and elon graphic, title of notebook and description of notebook ](images/2.png)
 
 ---
 
