@@ -1,13 +1,5 @@
 # Import Required Libraries
-import matplotlib.pyplot as plt
 import streamlit as st
-import hvplot.pandas
-import holoviews as hv
-import plost
-
-# Set bokeh extension, bridge between hvplot and streamlit
-# In your conda env, you will need to run 'pip install --force-reinstall --no-deps bokeh==2.4.3' to support bokeh extension
-hv.extension('bokeh', logo=False)
 
 # Set the streamlit page layout to wide (reduces padding on the sides, makes page responsive)
 st.set_page_config(layout="wide")
