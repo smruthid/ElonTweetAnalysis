@@ -59,7 +59,7 @@ This application runs as a Jupyter Notebook. Open your terminal, navigate to the
 [Smruthi Danda](https://github.com/smruthid)
 [Ben Gunnels](https://github.com/miltiades-the-general)
 [Greg Richardson](https://github.com/jgrichardson)
-
+[Zehra Vahidy](https://github.com/zvahidy) 
 * OTHER TEAM MEMBERS, ADD YOUR NAMES AND LINKS ABOVE
 
 ---
