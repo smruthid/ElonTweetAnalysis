@@ -10,33 +10,20 @@ def main():
     # See https://docs.streamlit.io/library/api-reference/layout
     
     ######################## Row A ##############################
-    a1, a2 = st.columns((8,6))
-    with a1:
-        st.image('images/1.png')
-    with a2:
-        st.markdown('# Elon Musk Tweet Analysis')
+    st.image('images/1.png')     
     
     # Insert a spacer
     st.markdown('#')
 
     ######################## Row B ##############################
-    st.header('Analysis of Elon Musk Tweets')
-    b1, b2 = st.columns(2)
+    st.header('Cumulative Analysis')
+    b1, b2 = st.columns((8,2))
     
-#     # Pull the data for Row B charts
-#     data = create_nft_market_vol()
-#     with b1:
-#         plost.line_chart(
-#             data = data,
-#             x = 'Date',
-#             y = 'Volume in ETH',
-#             title = 'First Chart',
-#             color = 'green',
-#             width = 500,
-#             height = 300,
-#         )        
-#         with st.expander("See analysis"):
-#             st.write("""This chart shows ...""")
+    # Pull the data for Row B charts
+    with b1:
+        st.image('images/cumulative_returns.png')   
+        with st.expander("See analysis"):
+            st.write("""This chart shows ...""")
 
 #     data = create_os_collection_index()
 #     with b2:
