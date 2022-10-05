@@ -10,7 +10,7 @@ def main():
     # See https://docs.streamlit.io/library/api-reference/layout
     
     ######################## Row A ##############################
-    a1, a2 = st.columns((2,8))
+    a1, a2 = st.columns((8,6))
     with a1:
         st.image('images/1.png')
     with a2:
