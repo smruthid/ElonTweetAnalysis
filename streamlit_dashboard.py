@@ -16,7 +16,7 @@ def main():
     st.markdown('#')
 
     ######################## Row B ##############################
-    st.header('Cumulative Analysis')
+    st.header('TSLA Trading Strategy')
     b1, b2 = st.columns((8,2))
     
     # Pull the data for Row B charts
