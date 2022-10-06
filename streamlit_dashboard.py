@@ -23,7 +23,7 @@ def main():
     with b1:
         st.image('images/tsla_trading_strategy.png')
         with st.expander("See analysis"):
-            st.write("""This chart shows ...""")
+            st.write("""Using the Twitter Signal and Mean Reversion signal to conduct our trades for TSLA were less effective than longing TSLA over the same time period.""")
 
 #     data = create_os_collection_index()
 #     with b2:
