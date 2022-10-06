@@ -21,7 +21,7 @@ def main():
     
     # Pull the data for Row B charts
     with b1:
-        st.image('images/cumulative_returns.png')   
+        st.image('images/tsla_trading_strategy.png')
         with st.expander("See analysis"):
             st.write("""This chart shows ...""")
 
