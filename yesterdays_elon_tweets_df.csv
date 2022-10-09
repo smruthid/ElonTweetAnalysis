@@ -1,4 +1,4 @@
-datetime,date,time,Tweet,Retweets,Quote Tweets,Likes,score_tag,confidence
+datetime,Date,time,tweet,replies_count,retweets_count,likes_count,score_tag,confidence
 2022-10-02 11:49:00+00:00,2022-10-02,11:49:00,Do not let ancient grudge break to new mutiny,7619,623,93000,P,92
 2022-10-02 16:03:00+00:00,2022-10-02,16:03:00,Prufrock II emerging from the ground,3584,349,59300,NONE,100
 2022-10-02 16:47:00+00:00,2022-10-02,16:47:00,The embarrassing hose down photos were highly motivating tbh,178,58,5817,P,100
